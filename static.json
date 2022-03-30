@@ -5,5 +5,10 @@
     "/**":       "index.html",
     "/src/**":     "/src/",
     "/favicon.ico":     "/favicon.ico"
-  } 
+  },
+  "headers": {
+    "/**": {
+      "Cache-Control": "public, max-age=512000"
+    }
+  }
 }
