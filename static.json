@@ -3,6 +3,7 @@
   "clean_urls": false,
   "routes": {
     "/**":       "index.html",
-    "/src/**":     "/src/"
+    "/src/**":     "/src/",
+    "/favicon.ico":     "/favicon.ico"
   } 
 }
